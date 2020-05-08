@@ -20,7 +20,7 @@ const Navbar = ({ isEng, setIsEng }) => {
       <ul className={toggle ? "nav-links show-nav" : "nav-links hide-nav"}>
         <li>
           <Link className={pathname === "/" ? "focus" : ""} to="/">
-            Home
+            {isEng ? "Home" : "Strona Główna"}
           </Link>
         </li>
         <li>
@@ -28,17 +28,17 @@ const Navbar = ({ isEng, setIsEng }) => {
             className={pathname === "/publications" ? "focus" : ""}
             to="/publications"
           >
-            Publications
+            {isEng ? "Publications" : "Publikacje"}
           </Link>
         </li>
         <li>
           <Link className={pathname === "/videos" ? "focus" : ""} to="videos">
-            Videos
+            {isEng ? "Videos" : "Filmy"}
           </Link>
         </li>
         <li>
           <Link className={pathname === "/book" ? "focus" : ""} to="book">
-            My Book
+            {isEng ? "My Book" : "Moja Książka"}
           </Link>
         </li>
         <li>
@@ -46,12 +46,12 @@ const Navbar = ({ isEng, setIsEng }) => {
             className={pathname === "/partners" ? "focus" : ""}
             to="partners"
           >
-            Partners
+            {isEng ? "Partners" : "Partnerzy"}
           </Link>
         </li>
         <li>
           <Link className={pathname === "/photos" ? "focus" : ""} to="photos">
-            Photos
+            {isEng ? "Photos" : "Zdjęcia"}
           </Link>
         </li>
         <li>
@@ -65,7 +65,7 @@ const Navbar = ({ isEng, setIsEng }) => {
               setIsEng(!isEng);
             }}
           >
-            {isEng ? "English" : "Polish"}
+            {isEng ? "Polish" : "English"}
           </button>
         </li>
       </ul>

@@ -1,4 +1,25 @@
 @import "../../App.scss";
 
 .Publications {
+  #content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    #online,
+    #printed {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100vw;
+      padding: 10px;
+    }
+
+    @media screen and (min-width: 1000px) {
+      #online,
+      #printed {
+        width: 40vw;
+      }
+    }
+  }
 }

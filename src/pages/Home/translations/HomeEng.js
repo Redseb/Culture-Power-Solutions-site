@@ -3,6 +3,7 @@ import "../../../App.scss";
 import "../Home.scss";
 //Components
 import Hero from "../../../components/Hero/Hero";
+import Footer from "../../../components/Footer/Footer";
 import { FaPhone, FaLinkedin } from "react-icons/fa";
 
 //Resources
@@ -34,7 +35,7 @@ const HomeEng = () => {
             <FaLinkedin className="icon" />
           </a>
         </div>
-        <h1>I am Irek Zyzański</h1>
+        <h1>I am Irek Zyzański.</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus
           mattis ante vitae consequat. Sed ipsum nunc, elementum quis tortor sit
@@ -81,6 +82,7 @@ const HomeEng = () => {
           Sed porttitor leo at ante porta eleifend.
         </p>
       </div>
+      <Footer />
     </div>
   );
 };

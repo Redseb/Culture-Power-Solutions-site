@@ -3,19 +3,39 @@ import "../../../App.scss";
 import "../Home.scss";
 //Components
 import Hero from "../../../components/Hero/Hero";
+import Footer from "../../../components/Footer/Footer";
+import { FaPhone, FaLinkedin } from "react-icons/fa";
+
 //Resources
 const heroImg = require("../../../images/heroHome.jpg");
+const irekProfile = require("../../../images/irekProfile.jpg");
 
 const HomePl = () => {
   return (
     <div className="Home">
       <Hero
         img={heroImg}
-        imgDescription="A remote village on Surabaya, Indonesia pl"
+        imgDescription="A remote village on Surabaya, Indonesia"
         text="Culture Power Solutions"
       />
       <div id="content">
-        <h1>I am Irek Zyzański</h1>
+        <div id="contactCard">
+          <img src={irekProfile} alt="Irek Zyzański" />
+          <h2>Kontakt</h2>
+          <FaPhone className="icon" />
+          <a href="tel:+48-572-243-409">
+            <p>+48-572-243-409</p>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/irekzyzanski/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin className="icon" />
+          </a>
+        </div>
+        <h1>Jestem Irek Zyzański.</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus
           mattis ante vitae consequat. Sed ipsum nunc, elementum quis tortor sit
@@ -62,6 +82,7 @@ const HomePl = () => {
           Sed porttitor leo at ante porta eleifend.
         </p>
       </div>
+      <Footer />
     </div>
   );
 };

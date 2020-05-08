@@ -1,13 +1,15 @@
 import React from "react";
 import "../../App.scss";
 import "./Publications.scss";
-
-const Publications = () => {
-  return (
-    <div className="Publications">
-      <h1>Publications</h1>
-    </div>
-  );
+//Translations
+import PublicationsEng from "./translations/PublicationsEng";
+import PublicationsPl from "./translations/PublicationsPl";
+const Publications = ({ isEng }) => {
+  if (isEng) {
+    return <PublicationsEng />;
+  } else {
+    return <PublicationsPl />;
+  }
 };
 
 export default Publications;

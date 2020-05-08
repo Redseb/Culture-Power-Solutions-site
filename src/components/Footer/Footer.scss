@@ -1,0 +1,11 @@
+@import "../../App.scss";
+
+footer {
+  background-color: $primary;
+  padding: 10px;
+  margin-top: 10px;
+  width: 100vw;
+  text-align: center;
+  font-size: 3vh;
+  color: $secondary;
+}
