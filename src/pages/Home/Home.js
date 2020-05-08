@@ -5,6 +5,8 @@ import HomeEng from "./translations/HomeEng";
 import HomePl from "./translations/HomePl";
 
 const Home = ({ isEng }) => {
+  console.log("rerender");
+
   if (isEng) {
     return <HomeEng />;
   } else {

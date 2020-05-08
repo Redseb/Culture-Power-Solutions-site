@@ -7,8 +7,8 @@ const Hero = ({ img, imgDescription, text }) => {
     <div className="Hero">
       <img src={img} alt={imgDescription} />
       <div id="banner">
-        <div class="verticalAlignFlex bannerInner">
-          <h1 class="title">{text}</h1>
+        <div className="verticalAlignFlex bannerInner">
+          <h1 className="title">{text}</h1>
         </div>
       </div>
     </div>
