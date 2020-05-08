@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React, { useState } from "react";
+import "./App.scss";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+//Pages
+import Home from "./pages/Home/Home";
+import Publications from "./pages/Publications/Publications";
+//Components
+import Navbar from "./components/Navbar/Navbar";
+const App = () => {
+  const [isEng, setIsEng] = useState(true);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Navbar isEng={isEng} setIsEng={setIsEng} />
+        <Switch>
+          <Route path="/publications">
+            <Publications isEng={isEng} />
+          </Route>
+          <Route path="/">
+            <Home isEng={isEng} />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
-}
+};
 
 export default App;

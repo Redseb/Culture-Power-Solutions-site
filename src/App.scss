@@ -1,0 +1,19 @@
+//Shared color scheme
+$primary: #f2c94c;
+$primaryTrans: rgba(242, 201, 76, 0.7);
+$secondary: #001f54;
+$white: #f2f2f2;
+$black: #000000;
+
+* {
+  font-family: Playfair-Display;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.verticalAlignFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -1,0 +1,42 @@
+@import "../../App.scss";
+.Hero {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  margin: 0;
+}
+
+#banner {
+  position: absolute;
+  bottom: 8px;
+  background-color: $primaryTrans;
+  width: 100vw;
+  .title {
+    margin-left: 10px;
+    font-size: 11vw;
+    color: $secondary;
+    font-weight: normal;
+  }
+
+  .bannerInner {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  img {
+    height: 100vh;
+  }
+  #banner {
+    .title {
+      font-size: 8vw;
+    }
+  }
+}
