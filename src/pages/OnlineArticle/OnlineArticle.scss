@@ -1,0 +1,22 @@
+@import "../../App.scss";
+
+.OnlineArticle {
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    h1 {
+      font-size: 12vh;
+      font-weight: normal;
+      text-decoration: underline;
+      text-decoration-color: $primary;
+      text-align: center;
+    }
+    p {
+      font-size: 3vh;
+      margin-bottom: 50px;
+      text-align: left;
+    }
+  }
+}

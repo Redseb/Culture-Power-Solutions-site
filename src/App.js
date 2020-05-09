@@ -13,10 +13,10 @@ const App = () => {
       <Router>
         <Navbar isEng={isEng} setIsEng={setIsEng} />
         <Switch>
-          <Route path="/publications">
+          <Route exact path="/publications">
             <Publications isEng={isEng} />
           </Route>
-          <Route path="/">
+          <Route exact path="/">
             <Home isEng={isEng} />
           </Route>
         </Switch>

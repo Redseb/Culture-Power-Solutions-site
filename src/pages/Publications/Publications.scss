@@ -10,15 +10,21 @@
     #printed {
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: flex-start;
       width: 100vw;
       padding: 10px;
+      .listHeader {
+        font-size: 10vh;
+        text-align: center;
+        text-decoration: underline;
+        text-decoration-color: $primary;
+      }
     }
 
     @media screen and (min-width: 1000px) {
       #online,
       #printed {
-        width: 40vw;
+        max-width: 40vw;
       }
     }
   }

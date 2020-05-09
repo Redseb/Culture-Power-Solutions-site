@@ -1,6 +1,7 @@
 @import "../../App.scss";
 
 .Article {
+  transition-duration: 400ms;
   background-color: $secondary;
   border-radius: 20px;
   margin: 10px;
@@ -10,25 +11,44 @@
     margin: 20px;
     border-radius: 20px;
   }
-  #cardTextOuter {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  -webkit-box-shadow: 10px 10px 7px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 7px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 7px -4px rgba(0, 0, 0, 0.75);
+  @media screen and (min-width: 768px) {
+    display: block;
     #cardText {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      color: $white;
       h2 {
-        font-size: 3vh;
-        text-align: center;
-      }
-      p {
-        font-size: 2vh;
-        text-align: left;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-top: 8vh;
       }
     }
   }
+  #cardText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: $white;
+    padding: 10px;
+    h2 {
+      font-size: 3vh;
+      text-align: center;
+    }
+    p {
+      font-size: 2vh;
+      text-align: left;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+}
+
+.Article:hover {
+  transition-duration: 400ms;
+
+  -webkit-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
 }

@@ -5,6 +5,8 @@ import "../Home.scss";
 import Hero from "../../../components/Hero/Hero";
 import Footer from "../../../components/Footer/Footer";
 import { FaPhone, FaLinkedin } from "react-icons/fa";
+import Slide from "react-reveal/Slide";
+import Fade from "react-reveal/Fade";
 
 //Resources
 const heroImg = require("../../../images/heroHome.jpg");
@@ -19,23 +21,27 @@ const HomeEng = () => {
         text="Culture Power Solutions"
       />
       <div id="content">
-        <div id="contactCard">
-          <img src={irekProfile} alt="Irek Zyzański" />
-          <h2>Contact Me</h2>
-          <FaPhone className="icon" />
-          <a href="tel:+48-572-243-409">
-            <p>+48-572-243-409</p>
-          </a>
+        <Slide right>
+          <div id="contactCard">
+            <img src={irekProfile} alt="Irek Zyzański" />
+            <h2>Contact Me</h2>
+            <FaPhone className="icon" />
+            <a href="tel:+48-572-243-409">
+              <p>+48-572-243-409</p>
+            </a>
 
-          <a
-            href="https://www.linkedin.com/in/irekzyzanski/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaLinkedin className="icon" />
-          </a>
-        </div>
-        <h1>I am Irek Zyzański.</h1>
+            <a
+              href="https://www.linkedin.com/in/irekzyzanski/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin className="icon" />
+            </a>
+          </div>
+        </Slide>
+        <Fade>
+          <h1>I am Irek Zyzański.</h1>
+        </Fade>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus
           mattis ante vitae consequat. Sed ipsum nunc, elementum quis tortor sit

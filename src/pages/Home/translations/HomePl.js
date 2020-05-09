@@ -5,6 +5,7 @@ import "../Home.scss";
 import Hero from "../../../components/Hero/Hero";
 import Footer from "../../../components/Footer/Footer";
 import { FaPhone, FaLinkedin } from "react-icons/fa";
+import Slide from "react-reveal/Slide";
 
 //Resources
 const heroImg = require("../../../images/heroHome.jpg");
@@ -19,22 +20,25 @@ const HomePl = () => {
         text="Culture Power Solutions"
       />
       <div id="content">
-        <div id="contactCard">
-          <img src={irekProfile} alt="Irek Zyzański" />
-          <h2>Kontakt</h2>
-          <FaPhone className="icon" />
-          <a href="tel:+48-572-243-409">
-            <p>+48-572-243-409</p>
-          </a>
+        <Slide right>
+          <div id="contactCard">
+            <img src={irekProfile} alt="Irek Zyzański" />
+            <h2>Kontakt</h2>
+            <FaPhone className="icon" />
+            <a href="tel:+48-572-243-409">
+              <p>+48-572-243-409</p>
+            </a>
 
-          <a
-            href="https://www.linkedin.com/in/irekzyzanski/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaLinkedin className="icon" />
-          </a>
-        </div>
+            <a
+              href="https://www.linkedin.com/in/irekzyzanski/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin className="icon" />
+            </a>
+          </div>
+        </Slide>
+
         <h1>Jestem Irek Zyzański.</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus
