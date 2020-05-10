@@ -4,6 +4,7 @@ import "../Publications.scss";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 //Components
 import Hero from "../../../components/Hero/Hero";
+import Footer from "../../../components/Footer/Footer";
 import Article from "../../../components/Article/Article";
 import OnlineArticle from "../../OnlineArticle/OnlineArticle";
 
@@ -127,6 +128,7 @@ const PublicationsPl = () => {
                 />
               </div>
             </div>
+            <Footer />
           </div>
         </Route>
       </Switch>

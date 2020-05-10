@@ -6,6 +6,7 @@ import Home from "./pages/Home/Home";
 import Publications from "./pages/Publications/Publications";
 import MyBook from "./pages/MyBook/MyBook";
 import Partners from "./pages/Partners/Partners";
+import Videos from "./pages/Videos/Videos";
 //Components
 import Navbar from "./components/Navbar/Navbar";
 const App = () => {
@@ -23,6 +24,9 @@ const App = () => {
           </Route>
           <Route exact path="/partners">
             <Partners isEng={isEng} />
+          </Route>
+          <Route exact path="/videos">
+            <Videos isEng={isEng} />
           </Route>
           <Route exact path="/">
             <Home isEng={isEng} />

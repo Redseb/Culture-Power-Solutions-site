@@ -1,6 +1,8 @@
 @import "../../App.scss";
 
 .OnlineArticle {
+  background-color: $white;
+
   .content {
     display: flex;
     flex-direction: column;

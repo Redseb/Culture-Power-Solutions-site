@@ -1,4 +1,16 @@
 @import "../../App.scss";
 
 .Partners {
+  background-color: $white;
+  #partnerCard {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    img {
+      width: 40vh;
+    }
+    @media screen and (min-width: 1000px) {
+      margin-left: 20vw;
+      margin-right: 20vw;
+    }
+  }
 }

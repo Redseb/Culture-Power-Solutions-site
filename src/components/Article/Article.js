@@ -14,6 +14,7 @@ const Article = ({
   isPrint,
   pdf,
   setOnlineArticle,
+  id,
 }) => {
   if (isLeft) {
     if (isPrint) {
@@ -25,6 +26,7 @@ const Article = ({
               target="_blank"
               rel="noopener noreferrer"
               className="Article"
+              id={id}
             >
               <img
                 src={thumbnail}
@@ -52,7 +54,7 @@ const Article = ({
               });
             }}
           >
-            <Link to="/publications/onlineArticle" className="Article">
+            <Link to="/publications/onlineArticle" className="Article" id={id}>
               <img
                 src={thumbnail}
                 style={{ float: isLeft ? "left" : "right" }}
@@ -77,6 +79,7 @@ const Article = ({
               target="_blank"
               rel="noopener noreferrer"
               className="Article"
+              id={id}
             >
               <img
                 src={thumbnail}

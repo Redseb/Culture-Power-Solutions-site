@@ -1,0 +1,28 @@
+@import "../../App.scss";
+
+.VideoCard {
+  min-height: 30vh;
+  cursor: pointer;
+  margin: 1vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: $secondary;
+  padding: 10px;
+  border-radius: 20px;
+  color: $white;
+  h3 {
+    font-size: 2vh;
+  }
+  img {
+    height: 75%;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  .content {
+    padding: 5px;
+  }
+}

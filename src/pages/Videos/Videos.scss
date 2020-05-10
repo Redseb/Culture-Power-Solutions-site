@@ -1,0 +1,42 @@
+@import "../../App.scss";
+
+.videoSection {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  .playerSection {
+    // padding: 1vh;
+    width: 100vw;
+    #videoTitle {
+      text-decoration: underline;
+      text-decoration-color: $primary;
+      font-size: 6vh;
+      padding-top: 1vh;
+      padding-bottom: 1vh;
+    }
+  }
+  .videoList {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: auto;
+  }
+  @media screen and (min-width: 1000px) {
+    flex-direction: row;
+    align-items: flex-start;
+
+    .playerSection {
+      width: 70vw;
+      margin-right: 5vw;
+      margin-left: 2vw;
+      padding-top: 5vw;
+    }
+    .videoList {
+      width: 30vw;
+    }
+  }
+}
