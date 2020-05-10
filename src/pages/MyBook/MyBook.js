@@ -1,9 +1,15 @@
 import React from "react";
 import "../../App.scss";
 import "./MyBook.scss";
+import MyBookEng from "./translations/MyBookEng";
+import MyBookPl from "./translations/MyBookPl";
 
-const MyBook = () => {
-  return <div className="MyBook"> </div>;
+const MyBook = ({ isEng }) => {
+  if (isEng) {
+    return <MyBookEng />;
+  } else {
+    return <MyBookPl />;
+  }
 };
 
 export default MyBook;

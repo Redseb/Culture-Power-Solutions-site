@@ -1,0 +1,16 @@
+@import "../../App.scss";
+
+#title {
+  font-size: 8vh;
+  font-weight: normal;
+  text-decoration: underline;
+  text-decoration-color: $primary;
+  text-align: left;
+  padding: 50px;
+}
+#subtitle {
+  font-weight: normal;
+  font-style: italic;
+  padding-left: 50px;
+  font-size: 4vh;
+}
