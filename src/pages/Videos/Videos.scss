@@ -16,27 +16,34 @@
       padding-top: 1vh;
       padding-bottom: 1vh;
     }
+    #videoDesc {
+      font-size: 3vh;
+    }
   }
   .videoList {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     overflow-y: auto;
+    background-color: whitesmoke;
   }
   @media screen and (min-width: 1000px) {
     flex-direction: row;
     align-items: flex-start;
 
     .playerSection {
-      width: 70vw;
+      width: 60vw;
       margin-right: 5vw;
       margin-left: 2vw;
       padding-top: 5vw;
+      padding-bottom: 5vh;
     }
     .videoList {
+      padding-top: 5vh;
       width: 30vw;
+      height: 100vh;
     }
   }
 }

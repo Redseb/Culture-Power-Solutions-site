@@ -15,7 +15,7 @@ const MyBookPl = () => {
         imgDescription={"Writing a book"}
         text="Moja Książka"
       />
-      <div id="content">
+      <div id="textSection">
         <h2 id="title">
           Travelling with (the) Corporation - the joys and miseries of an expat
           life

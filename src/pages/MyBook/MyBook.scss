@@ -1,6 +1,13 @@
 @import "../../App.scss";
 .MyBook {
   background-color: $white;
+  #textSection {
+    margin: 10vh;
+    font-size: 3vh;
+    p {
+      margin-bottom: 20px;
+    }
+  }
 }
 #title {
   font-size: 8vh;
@@ -8,11 +15,11 @@
   text-decoration: underline;
   text-decoration-color: $primary;
   text-align: left;
-  padding: 50px;
 }
 #subtitle {
   font-weight: normal;
   font-style: italic;
-  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-size: 4vh;
 }

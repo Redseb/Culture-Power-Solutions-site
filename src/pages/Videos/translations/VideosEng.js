@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "../../../App.scss";
 //Hooks
 
@@ -8,26 +8,22 @@ import VideoCard from "../../../components/VideoCard/VideoCard";
 //Youtube
 import YouTube from "react-youtube";
 const VideosEng = () => {
-  const [videoId, setVideoId] = useState("Q74TA9e67aY");
+  const [videoId, setVideoId] = useState("xa0Py8FjPqI");
   const [width, setWidth] = useState(window.innerWidth);
   const [height, setheight] = useState(window.innerHeight);
-  const [videoTitle, setVideoTitle] = useState("Video Title");
-  const [videoDesc, setVideoDesc] = useState("Video description");
+  const [videoTitle, setVideoTitle] = useState(
+    "How Poles are perceived by - Irek Zyzanski and Bernard Fruga"
+  );
+  const [videoDesc, setVideoDesc] = useState(
+    "How Poles are perceived by foreigners. Will perception be different depending on their nationalities? How can you effectively communicate and cooperate with customers from China, Germany and the US? What are some potential traps and how should you defuse the communication bomb? These are only a few of the questions we are addressing with Bernard Fruga in our new video-cast. On a lighter note - yes - a delicate green shine on our hairs is due to little bit of overuse of the light, but it does not impact the conversation quality :-)Enjoy"
+  );
   const opts = {
     height: height / 1.5,
-    width: width < 1000 ? width : width / 1.5,
+    width: width < 1000 ? width : width / 1.7,
     playerVars: {
       autoplay: 1,
     },
   };
-
-  //   const opts = {
-  //     height: height / 2,
-  //     width: width / 3,
-  //     playerVars: {
-  //       autoplay: 1,
-  //     },
-  //   };
 
   return (
     <div className="Videos">
@@ -47,49 +43,13 @@ const VideosEng = () => {
             setVideo={setVideoId}
             setVideoTitle={setVideoTitle}
             setVideoDesc={setVideoDesc}
-            thumbnail={require("../../../images/videos/pl/videoThumb1.png")}
-            title="Irek Zyzański i Bernard Fruga praca z obcokrajowcami oraz komunikacja międzykulturowa"
+            thumbnail={require("../../../images/videos/eng/videoThumb1.png")}
+            title="How Poles are perceived by - Irek Zyzanski and Bernard Fruga"
             desc="How Poles are perceived by foreigners. Will perception be different depending on their nationalities? How can you effectively communicate and cooperate with customers from China, Germany and the US? What are some potential traps and how should you defuse the communication bomb?
             These are only a few of the questions we are addressing with Bernard Fruga in our new video-cast.
             On a lighter note - yes - a delicate green shine on our hairs is due to little bit of overuse of the light, but it does not impact the conversation quality :-)
             Enjoy"
-            videoId="wi7ZeUi6a8I"
-          />
-          <VideoCard
-            setVideo={setVideoId}
-            setVideoTitle={setVideoTitle}
-            setVideoDesc={setVideoDesc}
-            thumbnail={require("../../../images/videos/pl/videoThumb1.png")}
-            title="Irek Zyzański i Bernard Fruga praca z obcokrajowcami oraz komunikacja międzykulturowa"
-            desc="How Poles are perceived by foreigners. Will perception be different depending on their nationalities? How can you effectively communicate and cooperate with customers from China, Germany and the US? What are some potential traps and how should you defuse the communication bomb?
-            These are only a few of the questions we are addressing with Bernard Fruga in our new video-cast.
-            On a lighter note - yes - a delicate green shine on our hairs is due to little bit of overuse of the light, but it does not impact the conversation quality :-)
-            Enjoy"
-            videoId="wi7ZeUi6a8I"
-          />
-          <VideoCard
-            setVideo={setVideoId}
-            setVideoTitle={setVideoTitle}
-            setVideoDesc={setVideoDesc}
-            thumbnail={require("../../../images/videos/pl/videoThumb1.png")}
-            title="Irek Zyzański i Bernard Fruga praca z obcokrajowcami oraz komunikacja międzykulturowa"
-            desc="How Poles are perceived by foreigners. Will perception be different depending on their nationalities? How can you effectively communicate and cooperate with customers from China, Germany and the US? What are some potential traps and how should you defuse the communication bomb?
-            These are only a few of the questions we are addressing with Bernard Fruga in our new video-cast.
-            On a lighter note - yes - a delicate green shine on our hairs is due to little bit of overuse of the light, but it does not impact the conversation quality :-)
-            Enjoy"
-            videoId="wi7ZeUi6a8I"
-          />
-          <VideoCard
-            setVideo={setVideoId}
-            setVideoTitle={setVideoTitle}
-            setVideoDesc={setVideoDesc}
-            thumbnail={require("../../../images/videos/pl/videoThumb1.png")}
-            title="Irek Zyzański i Bernard Fruga praca z obcokrajowcami oraz komunikacja międzykulturowa"
-            desc="How Poles are perceived by foreigners. Will perception be different depending on their nationalities? How can you effectively communicate and cooperate with customers from China, Germany and the US? What are some potential traps and how should you defuse the communication bomb?
-            These are only a few of the questions we are addressing with Bernard Fruga in our new video-cast.
-            On a lighter note - yes - a delicate green shine on our hairs is due to little bit of overuse of the light, but it does not impact the conversation quality :-)
-            Enjoy"
-            videoId="wi7ZeUi6a8I"
+            videoId="xa0Py8FjPqI"
           />
         </div>
       </div>

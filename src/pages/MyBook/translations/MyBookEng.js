@@ -10,7 +10,7 @@ const MyBookEng = () => {
   return (
     <div className="MyBook">
       <Hero img={heroBook} imgDescription={"Writing a book"} text="My Book" />
-      <div id="content">
+      <div id="textSection">
         <h2 id="title">
           Travelling with (the) Corporation - the joys and miseries of an expat
           life

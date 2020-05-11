@@ -3,7 +3,7 @@
 .VideoCard {
   min-height: 30vh;
   cursor: pointer;
-  margin: 1vh;
+  margin: 2vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -13,6 +13,7 @@
   padding: 10px;
   border-radius: 20px;
   color: $white;
+  transition-duration: 400ms;
   h3 {
     font-size: 2vh;
   }
@@ -25,4 +26,10 @@
   .content {
     padding: 5px;
   }
+}
+
+.VideoCard:hover {
+  -webkit-box-shadow: 0px 0px 25px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 25px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 25px -1px rgba(0, 0, 0, 0.75);
 }
