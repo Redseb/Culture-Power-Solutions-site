@@ -9,9 +9,9 @@ const Publications = ({ isEng }) => {
     window.scrollTo(0, 0);
   }, []);
   if (isEng) {
-    return <PublicationsEng />;
+    return <PublicationsEng isEng={isEng} />;
   } else {
-    return <PublicationsPl />;
+    return <PublicationsPl isEng={isEng} />;
   }
 };
 

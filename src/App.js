@@ -9,6 +9,7 @@ import Partners from "./pages/Partners/Partners";
 import Videos from "./pages/Videos/Videos";
 //Components
 import Navbar from "./components/Navbar/Navbar";
+
 const App = () => {
   const [isEng, setIsEng] = useState(true);
   return (
@@ -16,16 +17,16 @@ const App = () => {
       <Router>
         <Navbar isEng={isEng} setIsEng={setIsEng} />
         <Switch>
-          <Route exact path="/publications">
+          <Route path="/publications">
             <Publications isEng={isEng} />
           </Route>
-          <Route exact path="/book">
+          <Route path="/book">
             <MyBook isEng={isEng} />
           </Route>
-          <Route exact path="/partners">
+          <Route path="/partners">
             <Partners isEng={isEng} />
           </Route>
-          <Route exact path="/videos">
+          <Route path="/videos">
             <Videos isEng={isEng} />
           </Route>
           <Route exact path="/">

@@ -5,6 +5,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-left: 1vh;
+  padding-right: 1vh;
   h1 {
     font-size: 12vh;
     font-weight: normal;
@@ -12,10 +14,44 @@
     text-decoration-color: $primary;
     text-align: center;
   }
+  h2 {
+    font-size: 8vh;
+    font-weight: normal;
+    padding-left: 5vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
   p {
     font-size: 3vh;
     margin-top: 10px;
     text-align: center;
+  }
+  ul {
+    list-style: disc inside none !important;
+    display: inline;
+  }
+  li {
+    font-weight: normal;
+    font-size: 3vh;
+    margin-bottom: 10px;
+    margin-left: 5vh;
+  }
+
+  img {
+    width: 50vh;
+    height: 50vh;
+    min-width: 20vw;
+    min-height: 30vh;
+    object-fit: contain;
+    border-radius: 10px;
+    padding-top: 5vh;
+  }
+
+  #imgContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
 
   #contactCard {
@@ -36,6 +72,10 @@
     -moz-box-shadow: 10px 10px 23px -6px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 10px 23px -6px rgba(0, 0, 0, 0.75);
     margin-top: 30px;
+    h2 {
+      font-size: 5vh;
+      padding: 0;
+    }
     a {
       color: $white;
       transition-duration: 400ms;

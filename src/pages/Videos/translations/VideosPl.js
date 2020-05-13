@@ -7,8 +7,6 @@ import VideoCard from "../../../components/VideoCard/VideoCard";
 import YouTube from "react-youtube";
 const VideosPl = () => {
   const [videoId, setVideoId] = useState("wi7ZeUi6a8I");
-  const [width, setWidth] = useState(window.innerWidth);
-  const [height, setheight] = useState(window.innerHeight);
   const [videoTitle, setVideoTitle] = useState(
     "Irek Zyzański i Bernard Fruga praca z obcokrajowcami oraz komunikacja międzykulturowa"
   );
@@ -16,8 +14,9 @@ const VideosPl = () => {
     "Podcast with Bernard Fruga about cross cultural communication and management"
   );
   const opts = {
-    height: height / 1.5,
-    width: width < 1000 ? width : width / 1.7,
+    height: window.innerHeight / 1.5,
+    width:
+      window.innerWidth < 1000 ? window.innerWidth : window.innerWidth / 1.7,
     playerVars: {
       autoplay: 1,
     },

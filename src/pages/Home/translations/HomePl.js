@@ -6,6 +6,7 @@ import Hero from "../../../components/Hero/Hero";
 import Footer from "../../../components/Footer/Footer";
 import { FaPhone, FaLinkedin } from "react-icons/fa";
 import Slide from "react-reveal/Slide";
+import Swing from "react-reveal/Swing";
 
 //Resources
 const heroImg = require("../../../images/heroHome.jpg");
@@ -24,7 +25,9 @@ const HomePl = () => {
           <div id="contactCard">
             <img src={irekProfile} alt="Irek Zyzański" />
             <h2>Kontakt</h2>
-            <FaPhone className="icon" />
+            <Swing>
+              <FaPhone className="icon" />
+            </Swing>
             <a href="tel:+48-572-243-409">
               <p>+48-572-243-409</p>
             </a>

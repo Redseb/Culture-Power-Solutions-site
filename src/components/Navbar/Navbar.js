@@ -7,6 +7,10 @@ import { FaAlignRight } from "react-icons/fa";
 const Navbar = ({ isEng, setIsEng }) => {
   const [toggle, setToggle] = useState(false);
   let pathname = useLocation().pathname;
+  const closeToggle = () => {
+    setToggle(false);
+  };
+
   return (
     <nav className="Navbar">
       <button
@@ -18,12 +22,12 @@ const Navbar = ({ isEng, setIsEng }) => {
         <FaAlignRight />
       </button>
       <ul className={toggle ? "nav-links show-nav" : "nav-links hide-nav"}>
-        <li>
+        <li onClick={closeToggle}>
           <Link className={pathname === "/" ? "focus" : ""} to="/">
             {isEng ? "Home" : "Strona Główna"}
           </Link>
         </li>
-        <li>
+        <li onClick={closeToggle}>
           <Link
             className={pathname === "/publications" ? "focus" : ""}
             to="/publications"
@@ -31,17 +35,17 @@ const Navbar = ({ isEng, setIsEng }) => {
             {isEng ? "Publications" : "Publikacje"}
           </Link>
         </li>
-        <li>
+        <li onClick={closeToggle}>
           <Link className={pathname === "/videos" ? "focus" : ""} to="videos">
             {isEng ? "Videos" : "Filmy"}
           </Link>
         </li>
-        <li>
+        <li onClick={closeToggle}>
           <Link className={pathname === "/book" ? "focus" : ""} to="book">
             {isEng ? "My Book" : "Moja Książka"}
           </Link>
         </li>
-        <li>
+        <li onClick={closeToggle}>
           <Link
             className={pathname === "/partners" ? "focus" : ""}
             to="partners"
@@ -49,17 +53,12 @@ const Navbar = ({ isEng, setIsEng }) => {
             {isEng ? "Partners" : "Partnerzy"}
           </Link>
         </li>
-        <li>
+        <li onClick={closeToggle}>
           <Link className={pathname === "/photos" ? "focus" : ""} to="photos">
             {isEng ? "Photos" : "Zdjęcia"}
           </Link>
         </li>
-        <li>
-          <Link className={pathname === "/blog" ? "focus" : ""} to="blog">
-            Blog
-          </Link>
-        </li>
-        <li>
+        <li onClick={closeToggle}>
           <button
             onClick={() => {
               setIsEng(!isEng);

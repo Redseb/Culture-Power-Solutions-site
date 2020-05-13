@@ -8,17 +8,30 @@
     flex-direction: column;
     justify-content: center;
     padding: 50px;
-    h1 {
-      font-size: 12vh;
+    h2 {
+      font-size: 5vh;
       font-weight: normal;
-      text-decoration: underline;
-      text-decoration-color: $primary;
-      text-align: center;
+      text-align: left;
+      color: $secondary;
+      padding-bottom: 10px;
     }
     p {
       font-size: 3vh;
       margin-bottom: 50px;
       text-align: left;
+    }
+    ul {
+      list-style: disc inside none !important;
+      display: inline;
+    }
+    ol {
+      list-style: lower-roman inside none !important;
+      display: inline;
+    }
+    li {
+      font-weight: normal;
+      font-size: 3vh;
+      margin-bottom: 10px;
     }
   }
 }
