@@ -53,11 +53,11 @@ const Navbar = ({ isEng, setIsEng }) => {
             {isEng ? "Partners" : "Partnerzy"}
           </Link>
         </li>
-        <li onClick={closeToggle}>
+        {/* <li onClick={closeToggle}>
           <Link className={pathname === "/photos" ? "focus" : ""} to="photos">
             {isEng ? "Photos" : "Zdjęcia"}
           </Link>
-        </li>
+        </li> */}
         <li onClick={closeToggle}>
           <button
             onClick={() => {

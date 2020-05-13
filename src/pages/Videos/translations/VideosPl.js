@@ -27,7 +27,7 @@ const VideosPl = () => {
       <Hero
         img={require("../../../images/heroVideos.jpg")}
         imgDescription=""
-        text="Videos"
+        text="Filmy"
       />
       <div className="videoSection">
         <div className="playerSection">

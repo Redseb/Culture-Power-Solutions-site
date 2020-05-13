@@ -33,7 +33,7 @@ const PublicationsEng = ({ isEng }) => {
               text="Publications"
             />
             <div id="content">
-              <div id="online">
+              <div id="online" className="fullWidth">
                 <h2 className="listHeader">Online</h2>
                 <Article
                   thumbnail={require("../../../images/articles/online/art1Img.png")}

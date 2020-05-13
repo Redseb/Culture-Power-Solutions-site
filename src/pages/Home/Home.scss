@@ -17,9 +17,9 @@
   h2 {
     font-size: 8vh;
     font-weight: normal;
-    padding-left: 5vh;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    text-align: center;
   }
   p {
     font-size: 3vh;
@@ -37,21 +37,25 @@
     margin-left: 5vh;
   }
 
-  img {
-    width: 50vh;
-    height: 50vh;
-    min-width: 20vw;
-    min-height: 30vh;
-    object-fit: contain;
-    border-radius: 10px;
-    padding-top: 5vh;
-  }
-
   #imgContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    img {
+      transition-duration: 400ms;
+      width: 50vh;
+      height: 50vh;
+      min-width: 20vw;
+      min-height: 30vh;
+      object-fit: scale-down;
+      border-radius: 1vh;
+      padding-top: 5vh;
+    }
+    img:hover {
+      width: 55vh;
+      height: 55vh;
+    }
   }
 
   #contactCard {
@@ -61,13 +65,13 @@
     padding-bottom: 30px;
     padding-top: 10px;
     width: 40vh;
-    border-radius: 10px;
+    border-radius: 1vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     align-self: center;
-    border: 1px solid $primary;
+    border: 0.5vh solid $primary;
     -webkit-box-shadow: 10px 10px 23px -6px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 23px -6px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 10px 23px -6px rgba(0, 0, 0, 0.75);
@@ -91,7 +95,14 @@
       border-radius: 10px;
       border: 1px solid $primary;
     }
+    .iconContainer {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      padding: 1vh;
+    }
     .icon {
+      align-self: center;
       height: 5vh;
       width: 5vh;
     }
@@ -105,6 +116,10 @@
   }
 
   @media screen and (min-width: 768px) {
+    h2 {
+      padding-left: 5vh;
+      text-align: left;
+    }
     display: inline;
     #contactCard {
       float: right;

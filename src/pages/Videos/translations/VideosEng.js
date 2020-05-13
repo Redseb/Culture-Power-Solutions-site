@@ -13,7 +13,7 @@ const VideosEng = () => {
     "How Poles are perceived by - Irek Zyzanski and Bernard Fruga"
   );
   const [videoDesc, setVideoDesc] = useState(
-    "How Poles are perceived by foreigners. Will perception be different depending on their nationalities? How can you effectively communicate and cooperate with customers from China, Germany and the US? What are some potential traps and how should you defuse the communication bomb? These are only a few of the questions we are addressing with Bernard Fruga in our new video-cast. On a lighter note - yes - a delicate green shine on our hairs is due to little bit of overuse of the light, but it does not impact the conversation quality :-)Enjoy"
+    "How Poles are perceived by foreigners. Will perception be different depending on their nationalities? How can you effectively communicate and cooperate with customers from China, Germany and the US? What are some potential traps and how should you defuse the communication bomb? These are only a few of the questions we are addressing with Bernard Fruga in our new video-cast. On a lighter note - yes - a delicate green shine on our hairs is due to little bit of overuse of the light, but it does not impact the conversation quality :-) Enjoy"
   );
   const opts = {
     height: window.innerHeight / 1.5,

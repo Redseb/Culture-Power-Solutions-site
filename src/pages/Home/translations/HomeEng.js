@@ -4,10 +4,9 @@ import "../Home.scss";
 //Components
 import Hero from "../../../components/Hero/Hero";
 import Footer from "../../../components/Footer/Footer";
-import { FaPhone, FaLinkedin } from "react-icons/fa";
+import { FaPhone, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
-import Swing from "react-reveal/Swing";
 
 //Resources
 const heroImg = require("../../../images/heroHome.jpg");
@@ -26,13 +25,14 @@ const HomeEng = () => {
           <div id="contactCard">
             <img src={irekProfile} alt="Irek Zyzański" />
             <h2>Contact Me</h2>
-            <Swing>
+            <a href="tel:+48-572-243-409" className="iconContainer">
               <FaPhone className="icon" />
-            </Swing>
-            <a href="tel:+48-572-243-409">
               <p>+48-572-243-409</p>
             </a>
-
+            <a href="mailto:irek.zyzanski@me.com" className="iconContainer">
+              <FaEnvelope className="icon" />
+              <p>irek.zyzanski@me.com</p>
+            </a>
             <a
               href="https://www.linkedin.com/in/irekzyzanski/"
               target="_blank"
@@ -105,6 +105,22 @@ const HomeEng = () => {
             alt="Irek in Baghdad 1986"
           />
         </div>
+        <p>
+          On the very first day, as I walked outside of the student dorms... I
+          saw two soldiers – both carrying Kalashikows and holding hands as they
+          walked towards me. This was a complete shock for me.
+        </p>
+        <p>In my culture, men do not hold hands!</p>
+        <p>
+          My friend explained to me that they were just good friends and nothing
+          more; in this culture, it was completely okay to do that.
+        </p>
+        <p>
+          It was this sort of "aha!" moment that helped me realise that what I
+          may assume to be the universal norm, isn't necessarily the norm for
+          everybody.
+        </p>
+        <h2>And so my fascination with cross culture had begun…</h2>
       </div>
       <Footer />
     </div>
