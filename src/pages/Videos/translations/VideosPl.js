@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../../../App.scss";
 //Components
 import Hero from "../../../components/Hero/Hero";
+import Footer from "../../../components/Footer/Footer";
 import VideoCard from "../../../components/VideoCard/VideoCard";
 //Youtube
 import YouTube from "react-youtube";
@@ -50,6 +51,7 @@ const VideosPl = () => {
           />
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

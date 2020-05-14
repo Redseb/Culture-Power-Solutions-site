@@ -2,10 +2,13 @@ import React, { useState } from "react";
 import "../../App.scss";
 import "./Navbar.scss";
 import { Link, useLocation } from "react-router-dom";
+import { useHistory } from "react-router-dom";
+
 import { FaAlignRight } from "react-icons/fa";
 
 const Navbar = ({ isEng, setIsEng }) => {
   const [toggle, setToggle] = useState(false);
+  let history = useHistory();
   let pathname = useLocation().pathname;
   const closeToggle = () => {
     setToggle(false);
@@ -61,6 +64,9 @@ const Navbar = ({ isEng, setIsEng }) => {
         <li onClick={closeToggle}>
           <button
             onClick={() => {
+              if (pathname === "/publications") {
+                history.push("/publications");
+              }
               setIsEng(!isEng);
             }}
           >

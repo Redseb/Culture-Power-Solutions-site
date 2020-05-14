@@ -1,11 +1,16 @@
 import React, { useEffect } from "react";
 import "../../App.scss";
 import "./OnlineArticle.scss";
+import { useHistory } from "react-router-dom";
 //Components
 import Hero from "../../components/Hero/Hero";
 import Footer from "../../components/Footer/Footer";
 
 const OnlineArticle = ({ onlineArticle }) => {
+  let history = useHistory();
+  if (onlineArticle.title === "Article title") {
+    history.push("/publications");
+  }
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

@@ -2,6 +2,7 @@ import React from "react";
 import "../../App.scss";
 import "./Article.scss";
 import { Link } from "react-router-dom";
+
 //Components
 import Slide from "react-reveal/Slide";
 
