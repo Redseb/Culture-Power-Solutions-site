@@ -13,28 +13,29 @@ import Navbar from "./components/Navbar/Navbar";
 const App = () => {
   const [isEng, setIsEng] = useState(true);
   return (
-    <div className="App">
-      <Router>
-        <Navbar isEng={isEng} setIsEng={setIsEng} />
-        <Switch>
-          <Route path="/publications">
-            <Publications isEng={isEng} />
-          </Route>
-          <Route path="/book">
-            <MyBook isEng={isEng} />
-          </Route>
-          <Route path="/partners">
-            <Partners isEng={isEng} />
-          </Route>
-          <Route path="/videos">
-            <Videos isEng={isEng} />
-          </Route>
-          <Route exact path="/">
-            <Home isEng={isEng} />
-          </Route>
-        </Switch>
-      </Router>
-    </div>
+    <Router className="App">
+      <Navbar isEng={isEng} setIsEng={setIsEng} />
+      <Switch>
+        <Route path="/publications">
+          <Publications isEng={isEng} />
+        </Route>
+        <Route path="/book">
+          <MyBook isEng={isEng} />
+        </Route>
+        <Route path="/partners">
+          <Partners isEng={isEng} />
+        </Route>
+        <Route path="/videos">
+          <Videos isEng={isEng} />
+        </Route>
+        <Route exact path="/">
+          <Home isEng={isEng} />
+        </Route>
+        <Route>
+          <Home isEng={isEng} />
+        </Route>
+      </Switch>
+    </Router>
   );
 };
 

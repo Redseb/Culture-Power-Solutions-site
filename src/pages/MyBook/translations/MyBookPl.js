@@ -12,7 +12,7 @@ const MyBookPl = () => {
     <div className="MyBook">
       <Hero
         img={heroBook}
-        imgDescription={"Writing a book"}
+        imgDescription={"Swiątynie w Birmie"}
         text="Moja Książka"
       />
       <div id="textSection">

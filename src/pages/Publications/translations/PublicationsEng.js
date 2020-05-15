@@ -29,7 +29,7 @@ const PublicationsEng = ({ isEng }) => {
           <div className="Publications">
             <Hero
               img={heroImg}
-              imgDescription="Writing in a notebook"
+              imgDescription="A group of Buddhist monks praying"
               text="Publications"
             />
             <div id="content">
@@ -38,7 +38,7 @@ const PublicationsEng = ({ isEng }) => {
                 <Article
                   thumbnail={require("../../../images/articles/online/art1Img.png")}
                   title="Cross-cultural management and communication"
-                  description="although recognized as one of the key competencies of the 21st century manager, is often underestimated.
+                  description="Although recognized as one of the key competencies of the 21st century manager, is often underestimated.
                   This article is about one of the most important, and at the same time one of the most ignored, competencies of the 21st century manager in Poland and other places in the world."
                   paragraphs={[
                     "HEADER Cross-cultural management and communication - key competency for global manager",

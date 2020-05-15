@@ -27,7 +27,7 @@ const VideosPl = () => {
     <div className="Videos">
       <Hero
         img={require("../../../images/heroVideos.jpg")}
-        imgDescription=""
+        imgDescription="Zamek Himeji"
         text="Filmy"
       />
       <div className="videoSection">
@@ -48,6 +48,15 @@ const VideosPl = () => {
             On a lighter note - yes - a delicate green shine on our hairs is due to little bit of overuse of the light, but it does not impact the conversation quality :-)
             Enjoy"
             videoId="wi7ZeUi6a8I"
+          />
+          <VideoCard
+            setVideo={setVideoId}
+            setVideoTitle={setVideoTitle}
+            setVideoDesc={setVideoDesc}
+            thumbnail={require("../../../images/videos/pl/videoThumb2.png")}
+            title="Program Mentoringowy - Project Management Institute"
+            desc=""
+            videoId="8r8Ck76upos"
           />
         </div>
       </div>

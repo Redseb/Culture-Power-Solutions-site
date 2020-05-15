@@ -17,7 +17,7 @@ const HomeEng = () => {
     <div className="Home">
       <Hero
         img={heroImg}
-        imgDescription="A remote village on Surabaya, Indonesia"
+        imgDescription="An iconic shot of the Hong Kong Skyscrapers"
         text="Culture Power Solutions"
       />
       <div id="content">

@@ -29,7 +29,7 @@ const VideosEng = () => {
     <div className="Videos">
       <Hero
         img={require("../../../images/heroVideos.jpg")}
-        imgDescription=""
+        imgDescription="Himeji Castle"
         text="Videos"
       />
       <div className="videoSection">

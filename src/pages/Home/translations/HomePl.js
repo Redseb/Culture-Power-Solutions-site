@@ -17,7 +17,7 @@ const HomePl = () => {
     <div className="Home">
       <Hero
         img={heroImg}
-        imgDescription="A remote village on Surabaya, Indonesia"
+        imgDescription="Hong Kong wierzowce"
         text="Culture Power Solutions"
       />
       <div id="content">

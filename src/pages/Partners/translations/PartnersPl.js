@@ -9,7 +9,11 @@ import heroPartners from "../../../images/heroPartners.jpg";
 const PartnersPl = () => {
   return (
     <div className="Partners">
-      <Hero img={heroPartners} imgDescription="" text="Partnerzy" />
+      <Hero
+        img={heroPartners}
+        imgDescription="Grupa dzieci na Sulawesi"
+        text="Partnerzy"
+      />
       <Article
         id="partnerCard"
         thumbnail={require("../../../images/bFruga.png")}

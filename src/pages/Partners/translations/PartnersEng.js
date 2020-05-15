@@ -11,7 +11,7 @@ const PartnersEng = () => {
     <div className="Partners">
       <Hero
         img={heroPartners}
-        imgDescription="The partners I work with"
+        imgDescription="A group of young Sulawesian kids"
         text="Partners"
       />
       <Article

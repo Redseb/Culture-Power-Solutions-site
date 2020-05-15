@@ -29,7 +29,7 @@ const PublicationsPl = () => {
           <div className="Publications">
             <Hero
               img={heroImg}
-              imgDescription="Writing in a notebook"
+              imgDescription="Grupa mnichów Buddyjskich"
               text="Publikacje"
             />
             <div id="content">
@@ -278,6 +278,16 @@ const PublicationsPl = () => {
               <div id="printed">
                 <h2 className="listHeader">Drukowane</h2>
                 <Article
+                  thumbnail={require("../../../images/articles/printed/cover.png")}
+                  title='Czytam "Personel Plus"'
+                  description="„Personel Plus” jest pismem tworzonym przez
+                  praktyków HR dla praktyków HR, wspierającym
+                  wzajemne uczenie się"
+                  isLeft={false}
+                  isPrint={true}
+                  pdf={require("../../../images/articles/printed/cover.pdf")}
+                />
+                <Article
                   thumbnail={require("../../../images/articles/printed/wirtualnezespolypracy.jpg")}
                   title="Wirtualne zespoły pracy - trend czy konieczność?"
                   description="Jakie wyzwania i pułapki czyhają na wirtualne zespoły?"
@@ -321,6 +331,34 @@ const PublicationsPl = () => {
                   isLeft={false}
                   isPrint={true}
                   pdf={require("../../../images/articles/printed/Oddelegowanie.pdf")}
+                />
+                <Article
+                  thumbnail={require("../../../images/articles/printed/JakUslyszec.png")}
+                  title='Jak Usłyszeć "nie"'
+                  description="Pracując w wielokulturowych zespołach,
+                   często nie rozróżniamy niuansów, bogactwa ani ukrytych znaczeń komunikatów"
+                  isLeft={false}
+                  isPrint={true}
+                  pdf={require("../../../images/articles/printed/JakUslyszec.pdf")}
+                />
+                <Article
+                  thumbnail={require("../../../images/articles/printed/inteligencja.png")}
+                  title="Inteligencja Międzykulturowa"
+                  description="Nawet wieloletnia praca w międzynarodowym środowisku
+                  – w Europie, na Bliskim Wschodzie i w Azji – nie chroni
+                  przed czyhającymi pułapkami ani podstawowymi błędami
+                  związanymi z komunikacją i zarządzaniem międzykulturowym."
+                  isLeft={false}
+                  isPrint={true}
+                  pdf={require("../../../images/articles/printed/inteligencja.pdf")}
+                />
+                <Article
+                  thumbnail={require("../../../images/articles/printed/about.png")}
+                  title="About"
+                  description='Sekcja "About" w Personel Plusie'
+                  isLeft={false}
+                  isPrint={true}
+                  pdf={require("../../../images/articles/printed/about.pdf")}
                 />
               </div>
             </div>

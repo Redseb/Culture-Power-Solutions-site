@@ -1,7 +1,7 @@
 {
   "name": "culture-power-solutions",
-  "version": "0.2.0",
-  "homepage": "https://mikozyz.dev/hostTest",
+  "version": "1.3.0",
+  "homepage": "https://zyzanski.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
