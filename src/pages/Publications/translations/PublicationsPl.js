@@ -278,6 +278,14 @@ const PublicationsPl = () => {
               <div id="printed">
                 <h2 className="listHeader">Drukowane</h2>
                 <Article
+                  thumbnail={require("../../../images/articles/printed/about.png")}
+                  title="Mój profil"
+                  description='W Lutym 2020 Personel Plus opublikował mój profil w sekcji "Ludzie Branży HR"'
+                  isLeft={false}
+                  isPrint={true}
+                  pdf={require("../../../images/articles/printed/about.pdf")}
+                />
+                <Article
                   thumbnail={require("../../../images/articles/printed/cover.png")}
                   title='Czytam "Personel Plus"'
                   description="„Personel Plus” jest pismem tworzonym przez
@@ -287,6 +295,7 @@ const PublicationsPl = () => {
                   isPrint={true}
                   pdf={require("../../../images/articles/printed/cover.pdf")}
                 />
+
                 <Article
                   thumbnail={require("../../../images/articles/printed/wirtualnezespolypracy.jpeg")}
                   title="Wirtualne zespoły pracy - trend czy konieczność?"
@@ -351,14 +360,6 @@ const PublicationsPl = () => {
                   isLeft={false}
                   isPrint={true}
                   pdf={require("../../../images/articles/printed/inteligencja.pdf")}
-                />
-                <Article
-                  thumbnail={require("../../../images/articles/printed/about.jpeg")}
-                  title="About"
-                  description='Sekcja "About" w Personel Plusie'
-                  isLeft={false}
-                  isPrint={true}
-                  pdf={require("../../../images/articles/printed/about.pdf")}
                 />
               </div>
             </div>
