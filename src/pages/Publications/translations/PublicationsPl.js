@@ -288,7 +288,7 @@ const PublicationsPl = () => {
                   pdf={require("../../../images/articles/printed/cover.pdf")}
                 />
                 <Article
-                  thumbnail={require("../../../images/articles/printed/wirtualnezespolypracy.jpg")}
+                  thumbnail={require("../../../images/articles/printed/wirtualnezespolypracy.jpeg")}
                   title="Wirtualne zespoły pracy - trend czy konieczność?"
                   description="Jakie wyzwania i pułapki czyhają na wirtualne zespoły?"
                   isLeft={false}
@@ -296,7 +296,7 @@ const PublicationsPl = () => {
                   pdf={require("../../../images/articles/printed/wirtualnezespolypracy.pdf")}
                 />
                 <Article
-                  thumbnail={require("../../../images/articles/printed/Rowneszanse.jpg")}
+                  thumbnail={require("../../../images/articles/printed/Rowneszanse.jpeg")}
                   title="Równe szanse i zdrowa organizacja - Perspektywa innych kultur"
                   description="Nie widziałem jeszcze długofalowego planu HR-owego, który
                   nie zawierałby strategii mającej zapewnić równe szanse wszystkim
@@ -306,7 +306,7 @@ const PublicationsPl = () => {
                   pdf={require("../../../images/articles/printed/Rowneszanse.pdf")}
                 />
                 <Article
-                  thumbnail={require("../../../images/articles/printed/Lekarstwoczy.jpg")}
+                  thumbnail={require("../../../images/articles/printed/Lekarstwoczy.jpeg")}
                   title="Lekwarstwo czy trucizna?"
                   description="Często przyjmujemy za niekwestionowaną prawdę,
                   że system premiowy motywuje pracowników, a w szczególności
@@ -318,7 +318,7 @@ const PublicationsPl = () => {
                   pdf={require("../../../images/articles/printed/Lekarstwoczy.pdf")}
                 />
                 <Article
-                  thumbnail={require("../../../images/articles/printed/Oddelegowanie.jpg")}
+                  thumbnail={require("../../../images/articles/printed/Oddelegowanie.jpeg")}
                   title="Oddelegowanie
                   do pracy w innym
                   kraju: możliwości
@@ -333,7 +333,7 @@ const PublicationsPl = () => {
                   pdf={require("../../../images/articles/printed/Oddelegowanie.pdf")}
                 />
                 <Article
-                  thumbnail={require("../../../images/articles/printed/JakUslyszec.png")}
+                  thumbnail={require("../../../images/articles/printed/JakUslyszec.jpeg")}
                   title='Jak Usłyszeć "nie"'
                   description="Pracując w wielokulturowych zespołach,
                    często nie rozróżniamy niuansów, bogactwa ani ukrytych znaczeń komunikatów"
@@ -342,7 +342,7 @@ const PublicationsPl = () => {
                   pdf={require("../../../images/articles/printed/JakUslyszec.pdf")}
                 />
                 <Article
-                  thumbnail={require("../../../images/articles/printed/inteligencja.png")}
+                  thumbnail={require("../../../images/articles/printed/inteligencja.jpeg")}
                   title="Inteligencja Międzykulturowa"
                   description="Nawet wieloletnia praca w międzynarodowym środowisku
                   – w Europie, na Bliskim Wschodzie i w Azji – nie chroni
@@ -353,7 +353,7 @@ const PublicationsPl = () => {
                   pdf={require("../../../images/articles/printed/inteligencja.pdf")}
                 />
                 <Article
-                  thumbnail={require("../../../images/articles/printed/about.png")}
+                  thumbnail={require("../../../images/articles/printed/about.jpeg")}
                   title="About"
                   description='Sekcja "About" w Personel Plusie'
                   isLeft={false}
