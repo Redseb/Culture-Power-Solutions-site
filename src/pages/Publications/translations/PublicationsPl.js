@@ -295,7 +295,14 @@ const PublicationsPl = () => {
                   isPrint={true}
                   pdf={require("../../../images/articles/printed/cover.pdf")}
                 />
-
+                <Article 
+                  thumbnail={require("../../../images/articles/printed/ageism.jpeg")}
+                  title="Katalizator rozwoju organizacji"
+                  description='Trudno sobie wyobrazić strategiczny plan HR-owy bez odmienianego przez wszystkie przypadki słowa "mentoring".'
+                  isLeft={false}
+                  isPrint={true}
+                  pdf={require("../../../images/articles/printed/ageism.pdf")}
+                />
                 <Article
                   thumbnail={require("../../../images/articles/printed/wirtualnezespolypracy.jpeg")}
                   title="Wirtualne zespoły pracy - trend czy konieczność?"
