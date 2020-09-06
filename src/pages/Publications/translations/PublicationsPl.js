@@ -36,6 +36,115 @@ const PublicationsPl = () => {
               <div id="online">
                 <h2 className="listHeader">Online</h2>
                 <Article
+                  thumbnail={require("../../../images/articles/online/art8Img.jpeg")}
+                  title="„Refleksje Lidera – komunikacja i wywieranie wpływu DISC”"
+                  description="Odkrywcze momenty „aha” nie tylko przynoszą radość zrozumienia, ale też i smutną
+                  refleksję „dlaczego nie wiedziałem tego wcześniej, iluż błędów bym nie popełnił”.
+                  Certyfikacja z DISC D3 zdecydowanie wywołała taką refleksję."
+                  supplementaryImages={[require("../../../images/articles/online/art8DiscSummary.jpg")]}
+                  paragraphs={[
+                    "Odkrywcze momenty „aha” nie tylko przynoszą radość zrozumienia, ale też i smutną refleksję „dlaczego nie wiedziałem tego wcześniej, iluż błędów bym nie popełnił”. Certyfikacja z DISC D3 zdecydowanie wywołała taką refleksję.",
+                    "Sporo lat temu, kiedy pracowałem w swojej korporacji, rozpocząłem pracę jako Partner Biznesowy dla jednego z Dyrektorów Sprzedaży. Z wielkim żalem przyznaję, że wtedy nie byłem świadomy modelu DISC co omal nie doprowadziło mnie do depresji i odejścia z firmy.",
+                    "Mój naturalny styl to żółto – zielony, lubiący harmonię, zgodę, dobry negocjator i inspirator. Unikam konfliktów i raczej widzę dobre strony w ludziach.",
+                    "Mój klient był bardzo czerwony – dyrektywny. W swojej nieświadomości postrzegałem go jako aroganckiego głąba, który nie szanował ludzi, szorstko się komunikował i szedł po trupach do celu. On z kolei traktował mnie jako słabego nieudacznika, który nie potrafi podjąć trudnych decyzji i za bardzo myśli o ludziach.",
+                    "Ja starałem się z nim budować przyjazne relacje, a jego to wkurzało, gdyż miał gdzieś relacje ze mną, chciał wyników. Sytuacja trwała jakiś czas doprowadzając do sporych konfliktów które zakończyły się moimi przenosinami do innego miasta.",
+                    "Gdybym wtedy znał model DISC i rozumiał, jak go użyć, w miarę łatwo zarządził bym tą sytuacją i uniknął niepotrzebnych nerwów. No cóż, nie zmienię tego co się wydarzyło i dlatego teraz pomagam innym dzieląc się swoją historią i wiedzą.",
+                    "Jest wiele modeli i odmian modelu DISC. Różnie się nazywają, mają różne rozdzielczości badania, oczywiście każdy udowadnia swoją wyższość nad innymi. Kiedy jednak zredukujemy je do absolutnego minimum, pozostaniemy z 4 głównymi stylami komunikacji związanymi z naszym zorientowaniem na ludzi lub zadania, oraz naszą ekspresywnością i balansem pomiędzy mówieniem a zadawaniem pytań.",
+                    "Bardzo rzadko się zdarza, aby ktoś miał tylko jeden styl komunikacji, najczęściej mamy jeden dominujący i jeden, dwa drugoplanowe. Bardzo często nasz styl zmienia się w zależności od sytuacji. Na przykład u mnie, kiedy jestem wyluzowany to dominują dwa – żółty i zielony. W stresie, żółty opada, wchodzi trochę czerwonego, a niebieskiego nadal jest bardzo mało. Ponieważ o tym wiem, więc kompensuję to pilnując szczegółów.",
+                    "HEADER Dlaczego To Jest Ważne",
+                    "jeżeli chcemy być skuteczni w wywieraniu wpływu, w zarządzaniu naszym zespołem, sprzedaży produktu do klienta to musimy dopasować się do jego stylu komunikacji i mówić jego językiem. Każdy kolor potrzebuje inne przekazu co do formy i co do treści. Czasami moi klienci pytają się „a dlaczego to ja mam się dopasować a nie ta druga strona”. Wtedy z uśmiechem na ustach zaczynam mówić do nich po arabsku (skończyłem arabistykę), i kiedy na ich twarzy pojawia się zakłopotanie a potem śmiech, tłumaczę, iż znam arabski i go lubię. I oczywiście mógłbym od nich oczekiwać, aby mnie zrozumieli. Jednakże, jeżeli to JA chcę wywrzeć wpływ na NICH, to JA muszę się dopasować z przekazem.",
+                    "Popatrzcie na dołączony wykres. W wielkim uproszczeniu dla potrzeb tego wpisu. Najtrudniej porozumieć się po przekątnych. Czyli zielony postrzega czerwonego jako aroganta i gbura, czerwony zielonego jako słabeusza, który nie potrafi podjąć trudnych decyzji związanych z ludźmi.",
+                    "Z kolei żółty postrzega niebieskiego jako nudziarza nie widzącego dużego obrazka, a niebieski widzi żółtego jako stąpającego w chmurach opowiadacza historii, który nie zna się na konkretach.",
+                    "IMAGE 0",
+                    "I to tyle w tym wpisie. Popatrzcie na ten szybki przewodnik, który pozwoli Wam z dużą miarą prawdopodobieństwa określić kolor rozmówcy, jego potrzeby komunikacyjne oraz czego powinniście unikać. Nie ma stylów lepszych ani gorszych. Po prostu są inne. Ich znajomość pozwoli Wam być skuteczniejszymi menadżerami, sprzedawcami, marketingowcami etc. Przyda Wam się wszędzie.",
+                    "A swoją drogą polecam fantastyczną serię książek napisanych przez Thomasa Eriksona „Otoczeni przez idiotów”, „Otoczeni przez psychopatów” i „Mój szef jest idiotą”. Thomas Erikson w lekki sposób i z poczuciem humoru opowiada o tajnikach komunikacji.",
+                    "HEADER Szybki Przewodnik Po Stylach Komunikacji",
+                    "Jak Rozpoznać Styl Rozmówcy, Jak Się Dopasować i Czego Unikać",
+                    "HEADER Dominujący /  Bezpośredni (czerwony)",
+                    "LISTSTART",
+                    "Kontrolue rozmowę",
+                    "Mówi konkretnie i krótko",
+                    "Nie kluczy, szybko przechodzi do sedna",
+                    "W dyskusji zwraca uwagę na fakty",
+                    "Nie lubi tracić czasu",
+                    "Jasny i logiczny w komunikacji",
+                    "Może być postrzegany jako arogancki",
+                    "Logiczny i dobrze zorganizowany",
+                    "Myśli o kosztach",
+                    "Lubi mówić i kontrolować sytuację",
+                    "Czytelny, często dominujący język ciała",
+                    "LISTEND",
+                    "HEADER Jak się komunikować z czerwonym stylem?",
+                    "LISTSTART",
+                    "Przechodź do faktów",
+                    "Nie trać czasu na „small talki”",
+                    "Czerwony szanuje ludzi mających własne zdanie, nie bój się go jasno wyrażać",
+                    "Nie zarzucaj go nadmierną ilością szczegółów, znaj fakty, ale przedstaw podsumowanie",
+                    "Czerwony lubi mieć kontrolę nad sytuacją, nie traktuj jego sposobu rozmowy i mowy ciało jako agresji",
+                    "Pamiętaj o kosztach, czerwony koncentruje się na wynikach biznesowych",
+                    "LISTEND",
+                    "HEADER Inicjujący / Porywający (żółty)",
+                    "LISTSTART",
+                    "Czytelny i aktywny język ciała",
+                    "Często gestykuluje i zmienia ton głosu",
+                    "„Zaraża” entuzjazmem",
+                    "Łatwo nawiązuje relacje",
+                    "Entuzjastyczny do nowych rzeczy",
+                    "Używa emocjonalnych argumentów",
+                    "Myśli „dużym obrazem”",
+                    "Z łatwością generuje pomysły",
+                    "Nie zwraca uwagi na szczegóły",
+                    "Często wpierw mówi, potem myśli",
+                    "LISTEND",
+                    "HEADER Jak się komunikować z żółtym stylem?",
+                    "LISTSTART",
+                    "Nie zarzucaj go szczegółami, to nie jest jego mocna strona",
+                    "Nie ignoruj jego pomysłów, pomyśl, jak je wykorzystać",
+                    "Żółty potrzebuje docenienia, kiedy trzeba to sprowadzaj go w dyplomatyczny sposób „na ziemię”",
+                    "LISTEND",
+                    "HEADER Stały / Taktowny (zielony)",
+                    "LISTSTART",
+                    "Przyjacielski – łatwo nawiązywać relację",
+                    "Czytelny (ale nie przesadny) język ciała",
+                    "Zainteresowany ludźmi, dąży do harmonii",
+                    "Troszczy się o innych",
+                    "Bierze pod uwagę opinie innych",
+                    "Raczej pyta niż mówi co robić",
+                    "Skuteczny w osiąganiu porozumienia",
+                    "Skuteczny w budowaniu zespołu",
+                    "Czasami mało asertywny, uważa, aby nie urazić innych",
+                    "LISTEND",
+                    "HEADER Jak się komunikować z zielonym stylem?",
+                    "LISTSTART",
+                    "Nie bądź agresywny w komunikacji z zielonym, daj mu przestrzeń na przemyślenie",
+                    "Zielony lubi harmonię i woli pozostać w swojej strefie komfortu - upewnij się, że rozumie przyczynę zmiany",
+                    "Zielony potrzebuje dobrych relacji z innymi. Zadbaj o to, aby je zbudować",
+                    "LISTEND",
+                    "HEADER Krytyczny / Metodyczny (niebieski)",
+                    "LISTSTART",
+                    "Cichy i skupiony",
+                    "Kontroluje język ciała - „pokerowa twarz”",
+                    "Często monotonny ton głosu",
+                    "Lubi dane i dokładne analizy",
+                    "Chce znać szczegóły, pyta się o nie",
+                    "W argumentacjach koncentruje się na faktach",
+                    "Czasami zagubiony w szczegółach",
+                    "Nie dąży do nawiązywania relacji",
+                    "Nie lubi zbytniej emocjonalności",
+                    "Często mało asertywny",
+                    "LISTEND",
+                    "HEADER Jak się komunikować z niebieskim stylem?",
+                    "LISTSTART",
+                    "Przygotuj fakty i dane, niebieski potrzebuje szczegółów do podjęcia decyzji",
+                    "Upewnij się, że Twój komunikat jest jasny, precyzyjny i zawiera wystarczającą ilość detali",
+                    "Niebieski potrzebuje logicznej struktury – zapewnij mu ją",
+                    "LISTEND"
+                  ]}
+                  isLeft={true}
+                  isPrint={false}
+                  setOnlineArticle={setOnlineArticle}
+                />
+                <Article
                   thumbnail={art1Img}
                   title="Komunikacja i zarządzanie międzykulturowe to kluczowa lecz często niedoceniania kompetencja menadżera XXI wieku."
                   description="Nie, to nie będzie polityczny tekst na tak ostatnio nośny temat. To artykuł o jednej z najważniejszych, a jednocześnie jakże często ignorowanej, kompetencji menadżera XXI wieku w Polsce jak i w innych miejscach na świecie."
@@ -295,7 +404,7 @@ const PublicationsPl = () => {
                   isPrint={true}
                   pdf={require("../../../images/articles/printed/cover.pdf")}
                 />
-                <Article 
+                <Article
                   thumbnail={require("../../../images/articles/printed/ageism.jpeg")}
                   title="Katalizator rozwoju organizacji"
                   description='Trudno sobie wyobrazić strategiczny plan HR-owy bez odmienianego przez wszystkie przypadki słowa "mentoring".'

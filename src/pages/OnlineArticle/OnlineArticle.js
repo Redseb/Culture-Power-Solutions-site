@@ -34,6 +34,8 @@ const OnlineArticle = ({ onlineArticle }) => {
         content.push(<ul key={i}>{lis}</ul>);
       }
       i = i + liCounter;
+    } else if (paragraph.includes("IMAGE")) {
+      content.push(<img class="supplement" src={onlineArticle.supplementaryImages[paragraph.match(/\d+/g).join('')]} alt={onlineArticle.paragraphs[i - 1]} />)
     } else {
       content.push(<p key={i}>{paragraph}</p>);
     }

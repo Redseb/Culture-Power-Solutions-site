@@ -16,6 +16,7 @@ const Article = ({
   pdf,
   setOnlineArticle,
   id,
+  supplementaryImages
 }) => {
   if (isLeft) {
     if (isPrint) {
@@ -52,6 +53,7 @@ const Article = ({
                 title: title,
                 img: thumbnail,
                 description: description,
+                supplementaryImages: supplementaryImages,
               });
             }}
           >
@@ -107,6 +109,7 @@ const Article = ({
                   title: title,
                   img: thumbnail,
                   description: description,
+                  supplementaryImages: supplementaryImages
                 });
               }}
             >

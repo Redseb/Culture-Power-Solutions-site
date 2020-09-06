@@ -11,7 +11,7 @@ import Videos from "./pages/Videos/Videos";
 import Navbar from "./components/Navbar/Navbar";
 
 const App = () => {
-  const [isEng, setIsEng] = useState(true);
+  const [isEng, setIsEng] = useState(false);
   return (
     <Router className="App">
       <Navbar isEng={isEng} setIsEng={setIsEng} />
