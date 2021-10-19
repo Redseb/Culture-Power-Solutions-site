@@ -7,12 +7,12 @@ import VideoCard from "../../../components/VideoCard/VideoCard";
 //Youtube
 import YouTube from "react-youtube";
 const VideosPl = () => {
-  const [videoId, setVideoId] = useState("wi7ZeUi6a8I");
+  const [videoId, setVideoId] = useState("RNdqGNuyZL4");
   const [videoTitle, setVideoTitle] = useState(
-    "Irek Zyzański i Bernard Fruga praca z obcokrajowcami oraz komunikacja międzykulturowa"
+    "Czy lider IT potrzebuje międzykulturowej kompetencji?"
   );
   const [videoDesc, setVideoDesc] = useState(
-    "Podcast with Bernard Fruga about cross cultural communication and management"
+    `Studia podyplomowe "Przywództwo IT: od eksperta do lidera" -  współczesny lider IT pracuje globalnie zarządzając wielokulturowymi zespołami. Ta różnorodność ubogaca i rozszerza perspektywy, ale jednocześnie kryje w sobie pułapki, które mogą drastycznie obniżyć rezultaty pracy i motywacj`
   );
   const opts = {
     height: window.innerHeight / 1.5,
@@ -37,6 +37,15 @@ const VideosPl = () => {
           <p id="videoDesc">{videoDesc}</p>
         </div>
         <div className="videoList">
+          <VideoCard
+            setVideo={setVideoId}
+            setVideoTitle={setVideoTitle}
+            setVideoDesc={setVideoDesc}
+            thumbnail={require("../../../images/videos/pl/videoThumb3.png")}
+            title="Czy lider IT potrzebuje międzykulturowej kompetencji?"
+            desc={`Studia podyplomowe "Przywództwo IT: od eksperta do lidera" -  współczesny lider IT pracuje globalnie zarządzając wielokulturowymi zespołami. Ta różnorodność ubogaca i rozszerza perspektywy, ale jednocześnie kryje w sobie pułapki, które mogą drastycznie obniżyć rezultaty pracy i motywacj`}
+            videoId="RNdqGNuyZL4"
+          />
           <VideoCard
             setVideo={setVideoId}
             setVideoTitle={setVideoTitle}
