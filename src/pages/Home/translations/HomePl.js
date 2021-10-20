@@ -9,7 +9,7 @@ import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
 
 //Resources
-const heroImg = require("../../../images/heroHome.jpg");
+const heroImg = require("../../../images/book1.jpeg");
 const irekProfile = require("../../../images/irekProfile.jpg");
 
 const HomePl = () => {
@@ -93,10 +93,6 @@ const HomePl = () => {
         </p>
 
         <div id="imgContainer">
-          <img
-            src={require("../../../images/book1.jpeg")}
-            alt="Moja książka: Popatrz inaczej"
-          />
           <img
             src={require("../../../images/book3.jpeg")}
             alt="Moja książka: Popatrz inaczej"

@@ -17,8 +17,8 @@ const MyBookPl = () => {
       />
       <div id="textSection">
         <p>
-          Właśnie wydałem moja książkę “Popatrz inaczej. Pułapki komunikacji w biznesie
-          międzynarodowym”. Od dawna o niej marzyłem, kilka razy zabierałem się do jej napisania.
+          Właśnie wydałem moja książkę <i>“Popatrz inaczej. Pułapki komunikacji w biznesie
+            międzynarodowym”</i>. Od dawna o niej marzyłem, kilka razy zabierałem się do jej napisania.
           Wiele razy zmieniałem jej koncepcję. Tak jak sobie chciałem, książka jest elegancka,
           naprawdę premium, z zakładką i cudowną grafiką. Łączy w sobie zarówno moje historie z
           pracy w Dubaju, Chinach, Rosji, Ukrainie, Indonezji i Hong Kongu.
