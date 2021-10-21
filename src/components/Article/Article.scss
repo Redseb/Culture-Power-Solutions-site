@@ -20,11 +20,6 @@
   box-shadow: 10px 10px 7px -4px rgba(0, 0, 0, 0.75);
   @media screen and (min-width: 768px) {
     display: block;
-    #cardText {
-      h2 {
-        margin-top: 8vh;
-      }
-    }
   }
   #cardText {
     display: flex;
@@ -33,11 +28,12 @@
     color: $white;
     padding: 10px;
     h2 {
-      font-size: 3vh;
+      font-size: 2.3vh;
       text-align: center;
+      font-weight: bold;
     }
     p {
-      font-size: 2vh;
+      font-size: 2.3vh;
       text-align: left;
       margin-left: 10px;
       margin-right: 10px;

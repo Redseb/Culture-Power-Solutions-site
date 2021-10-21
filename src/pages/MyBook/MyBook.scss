@@ -3,24 +3,24 @@
   background-color: $white;
   #textSection {
     margin: 10vh;
-    font-size: 3vh;
+    font-size: 2.3vh;
     p {
       margin-bottom: 20px;
-      font-size: 2vh;
+      font-size: 2.3vh;
     }
     ul {
       display: flex;
       flex-direction: column;
     }
     li {
-      font-size: 2vh;
+      font-size: 2.3vh;
       list-style-type: disc;
       list-style-position: inside;
       display: list-item;
       font-weight: normal;
     }
     h3 {
-      font-size: 5vh;
+      font-size: 4vh;
       font-weight: normal;
       margin-top: 2vh;
       margin-bottom: 2vh;
@@ -59,7 +59,7 @@
   }
 }
 #title {
-  font-size: 8vh;
+  font-size: 4vh;
   font-weight: normal;
   text-decoration: underline;
   text-decoration-color: $primary;
