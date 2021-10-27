@@ -11,68 +11,62 @@ const PartnersEng = () => {
     <div className="Partners">
       <Hero
         img={heroPartners}
-        imgDescription="A group of young Sulawesian kids"
-        text="Partners"
-      />
-      <Article
-        id="partnerCard"
-        thumbnail={require("../../../images/bFruga.png")}
-        title="Bernard Fruga"
-        description='Business consultant, author and mentor. He provided me with great support during that difficult time of transition from "the corporate world" to "being my own master".
-
-        We have since started recording videos about cross-cultural communication.
-        
-        You will find a plethora of inspirational ideas on his page.'
-        isLeft={false}
-        isPrint={true}
-        pdf={"https://www.fruga.net/"}
-      />
-      <Article
-        id="partnerCard"
-        thumbnail={require("../../../images/bss.png")}
-        title="Zosia Barańska"
-        description="I met Zosia Barańska on an HR conference we had both attended. Since then, we enjoy developing inspirational cross cultural projects together."
-        isLeft={true}
-        isPrint={true}
-        pdf={"http://www.bsspartners.pl/en/home/"}
+        imgDescription="Grupa dzieci na Sulawesi"
+        text="Partnerzy"
       />
       <Article
         id="partnerCard"
         thumbnail={require("../../../images/coachwise.png")}
         title="Coachwise"
-        description="One of the leading coaching companies in Poland, lead by Paweł Sopkowski.
-
-        I completed my coaching trainings in CoachWise, and it was there that we sparked and started working together. Since then, I have had the pleasure to work on many mentoring projects for leading companies in Poland, as a CoachWise consultant. I also co-deliver open Mentoring Essential programs."
+        description="Where I run mentoring programs, individual mentorship sessions, build development programs for corporations, and am responsible for the group mentoring program HRRAZEM."
         isLeft={false}
         isPrint={true}
         pdf={"http://www.coachingcenter.pl/"}
       />
       <Article
         id="partnerCard"
-        thumbnail={require("../../../images/ccl.png")}
-        title="CCL - Center for Creative Leadership"
-        description="One of the top leadership development company. At the beginning of 2019, I had the privilege to pass their Assessment Centers, and was accepted as a CCL Leadership Development Associate."
-        isLeft={true}
-        isPrint={true}
-        pdf={"https://www.ccl.org/"}
-      />
-      <Article
-        id="partnerCard"
         thumbnail={require("../../../images/eifid.png")}
         title="EIFID"
-        description="I joined their Train the Trainer session in Amsterdam. Good place to start intercultural adventure"
-        isLeft={false}
+        description="(European Institute for Cross Cultural Development) in Amsterdam, where several years ago I completed my diploma as a cross-cultural trainer, and now I regularly run sessions for future trainers."
+        isLeft={true}
         isPrint={true}
         pdf={"https://eifid.com/"}
       />
       <Article
         id="partnerCard"
-        thumbnail={require("../../../images/bepractice.png")}
-        title="Be Practice"
-        description="one of the leading training companies in automobile industry in Poland. Big brands in the portfolio & step into new area of business"
+        thumbnail={require("../../../images/blackbird.jpg")}
+        title="Blackbird Academy"
+        description="Where I am a trainer in cross-cultural and leadership programs."
+        isLeft={false}
+        isPrint={true}
+        pdf={"https://hello-blackbird.com/"}
+      />
+      <Article
+        id="partnerCard"
+        thumbnail={require("../../../images/hutchinson.png")}
+        title="Hutchcinson Institute"
+        description="Where I run sessions for current and future expats."
         isLeft={true}
         isPrint={true}
-        pdf={"http://bepractice.pl/"}
+        pdf={"https://hutchinson.org.pl/en/"}
+      />
+      <Article
+        id="partnerCard"
+        thumbnail={require("../../../images/bepractice.png")}
+        title="Business Practice"
+        description="Where I run training sessions in the field of communication and customer service for a premium car industry client."
+        isLeft={false}
+        isPrint={true}
+        pdf={"http://bepractice.pl/?page_id=19"}
+      />
+      <Article
+        id="partnerCard"
+        thumbnail={require("../../../images/politechnika.jpg")}
+        title="Politechnika Warszawska"
+        description="Where I'm a lecturer in communication and cross-cultural leadership."
+        isLeft={true}
+        isPrint={true}
+        pdf={"https://www.pw.edu.pl/"}
       />
       <Footer />
     </div>

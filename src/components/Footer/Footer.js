@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <Fade>
       <footer className="verticalAlignFlex">
-        <p>© 2020 Irek Zyzanski</p>
+        <p>© 2021 Irek Zyzanski</p>
       </footer>
     </Fade>
   );

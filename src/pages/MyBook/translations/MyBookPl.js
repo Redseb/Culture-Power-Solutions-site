@@ -12,7 +12,7 @@ const MyBookPl = () => {
     <div className="MyBook">
       <Hero
         img={heroBook}
-        imgDescription={"Swiątynie w Birmie"}
+        imgDescription={"Moja książka: Popatrz inaczej"}
         text="Moja Książka"
       />
       <div id="textSection">
@@ -79,7 +79,7 @@ const MyBookPl = () => {
             alt="Moja książka: Popatrz inaczej"
           />
           <img
-            src={require("../../../images/book4.jpeg")}
+            src={require("../../../images/book3.jpeg")}
             alt="Moja książka: Popatrz inaczej"
           />
           <img

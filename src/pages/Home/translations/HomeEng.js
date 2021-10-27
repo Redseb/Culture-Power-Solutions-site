@@ -9,7 +9,7 @@ import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
 
 //Resources
-const heroImg = require("../../../images/heroHome.jpg");
+const heroImg = require("../../../images/book1.jpeg");
 const irekProfile = require("../../../images/irekProfile.jpg");
 
 const HomeEng = () => {
@@ -17,14 +17,14 @@ const HomeEng = () => {
     <div className="Home">
       <Hero
         img={heroImg}
-        imgDescription="An iconic shot of the Hong Kong Skyscrapers"
+        imgDescription="My book: Popatrz Inaczej"
         text="Culture Power Solutions"
       />
       <div id="content">
         <Slide right>
           <div id="contactCard">
             <img src={irekProfile} alt="Irek Zyzański" />
-            <h2>Contact Me</h2>
+            <h2>Kontakt</h2>
             <a href="tel:+48-572-243-409" className="iconContainer">
               <FaPhone className="icon" />
               <p>+48-572-243-409</p>
@@ -45,82 +45,40 @@ const HomeEng = () => {
         <Fade>
           <h1>I am Irek Zyzański.</h1>
         </Fade>
+
         <p>
-          I have a passion for cross cultural mangement, communication and
-          leadership development. I am proud to be a Leadership Development
-          Associate with CCL (Center for Creative Leadership) in Brussels.{" "}
+          I'm a consultant, trainer, coach and mentor. I've worked for 24 years for an international FMCG with offices in over 180 countries across 6 continents.
         </p>
         <p>
-          During my 24 exciting years of adventure in Philip Morris, I spent 18
-          of them working outside of my home market in Poland. I've had bosses
-          of 14 different nationalities, and managed multinational teams in
-          Europe, the Middle East and Asia. Together with my family we lived in
-          Ukraine, Dubai, China, Russia, Indonesia, and Hong Kong. Last but not
-          least - I have my MA in Arabic Language and Culture. I speak Polish,
-          English, Russian and Arabic.
+          I worked in Poland, Ukraine, Dubai, China, Russia, Indonesia and Hong Kong. Airports and hotels were a second home to me, or, as my wife would say, even my first. I've worked for managers of 14 nationalities - Polish, American, Chinese, Malaysian, French, British, Dutch, Danish, and Turkish, among others. As a manager myself, I was responsible for multinational teams from Europe, the Middle East and Asia.
         </p>
         <h2>Consultant Mentor Coach</h2>
         <p>
-          I work with the leading consulting and training companies in Poland
-          and abroad. My projects cover a wide spectrum of industries, including
-          FMCG, premium cars and banking.
+          Currently, I use my experiences to guide firms in developing employees' cross-cultural intelligence. It's one of the most important, but also underappreciated, competencies of 21st century leadership. I help expats adapt to work in Poland, and I prepare Poles for work placements abroad.
         </p>
-        <h2>I will help you &amp; your company by:</h2>
-        <ul>
-          <li>
-            working with your expats on how to lead, communicate and give
-            feedback to their local &amp; international teams
-          </li>
-          <li>
-            coaching and mentoring your multi-cultural management team to work
-            together more efficiently
-          </li>
-          <li>
-            preparing your new incoming expats and their families to live in
-            Poland
-          </li>
-          <li>
-            assisting your candidates for expatriation and their families in
-            successful relocation abroad
-          </li>
-          <li>
-            working with your HR teams on Assessment Centers, Organisation
-            Design, Talent Management, and other areas.
-          </li>
-        </ul>
-        <h2>Cross-Cultural Beginnings</h2>
         <p>
-          <i>
-            It all started when I was in Baghdad many years ago (1986), studying
-            Arabic language at the Al-Mustansiriya University
-          </i>
+          I support leaders in their own development, and organisations in building mentoring and leadership programs. I also prepare mentors and mentees to participate in development programs.
         </p>
+        <h2>Look Differently</h2>
+        <p>
+          We all know the saying that dreams are meant to be fulfilled. For me, that phrase has become a reality, as I am very proud to announce the release of my book <i>"Look differently. Traps in multicultural communication"</i>.
+        </p>
+        <p>
+          I wrote this book in order to share my experiences in leadership and cross-cultural communication. Currently my book can only be bought online. Please get in touch via email, Messenger, WhatsApp or SMS - I'll provide my account details and you the delivery address.
+        </p>
+        <p>
+          From the very beginning I envisioned my book as elegant and premium - it's hard cover and has wonderful graphics. It costs 60 PLN plus around 12-14 PLN for delivery (depending on your chosen delivery method).
+        </p>
+        <p>
+          You won't be disappointed.
+        </p>
+
         <div id="imgContainer">
           <img
-            src={require("../../../images/beginning1.jpg")}
-            alt="Irek in Baghdad 1986"
-          />
-          <img
-            src={require("../../../images/beginning2.jpg")}
-            alt="Irek in Baghdad 1986"
+            src={require("../../../images/book4.jpeg")}
+            alt="My book: Popatrz inaczej"
           />
         </div>
-        <p>
-          On the very first day, as I walked outside of the student dorms... I
-          saw two soldiers – both carrying Kalashikows and holding hands as they
-          walked towards me. This was a complete shock for me.
-        </p>
-        <p>In my culture, men do not hold hands!</p>
-        <p>
-          My friend explained to me that they were just good friends and nothing
-          more; in this culture, it was completely okay to do that.
-        </p>
-        <p>
-          It was this sort of "aha!" moment that helped me realise that what I
-          may assume to be the universal norm, isn't necessarily the norm for
-          everybody.
-        </p>
-        <h2>And so my fascination with cross culture had begun…</h2>
       </div>
       <Footer />
     </div>

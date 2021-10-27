@@ -17,7 +17,7 @@ const HomePl = () => {
     <div className="Home">
       <Hero
         img={heroImg}
-        imgDescription="Hong Kong wierzowce"
+        imgDescription="Moja książka: Popatrz inaczej"
         text="Culture Power Solutions"
       />
       <div id="content">
@@ -59,7 +59,7 @@ const HomePl = () => {
           kilku osób z krajów innych niż te, które wymieniłem. Sam zarządzałem międzynarodowymi
           zespołami w Europie, na Bliskim Wschodzie i w Azji.
         </p>
-        <h2>Consultant Mentor Coach</h2>
+        <h2>Konsultant Mentor Coach</h2>
         <p>
           Obecnie wykorzystuję zdobyte doświadczenia, doradzając firmom, w jaki sposób powinny
           rozwijać inteligencję międzykulturową pracowników, stanowi ona bowiem jedną z
@@ -94,7 +94,7 @@ const HomePl = () => {
 
         <div id="imgContainer">
           <img
-            src={require("../../../images/book3.jpeg")}
+            src={require("../../../images/book4.jpeg")}
             alt="Moja książka: Popatrz inaczej"
           />
         </div>
